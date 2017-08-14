@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- redimensiona ao tamanho da largura da tela -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-top navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="img/logo.png"/></a>
+					<a class="navbar-brand"><img src="img/img_87_anos_header.png"></a>
+				</div>    
+				<form class="navbar-form navbar-right">
+					<button type="button" class="btn btn-warning">Acessar Conta</button>
+					<button id="btn-p" type="button" class="btn btn-default">Abrir Conta</button>
+				</form>
+
+				<hr id="hr-nav">
+
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#"><strong>Sobre</strong></a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>Produtos</strong><span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">One more separated link</a></li>
+							</ul>
+						</li>
+						<li><a href="#"><strong>Perguntas Frequentes</strong></a></li>
+						<li><a href="#"><strong>Aprenda sobre Investimentos</strong></a></li>
+						<li><a href="#"><strong>Contato</strong></a></li>      
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<!-- Form -->
+
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+				<h2 id="letra-laranja" style="text-align: center; font-size: 50px;">Resumo</h2>
+				<hr style="width: 50%">
+				<h3 style="text-align: center;">Confirme seus dados abaixo para que possamos concluir seu cadastro</h3>
+				<br>
+
+
+
+					<button style="margin-top: 30px;" type="button" class="btn btn-warning btn-lg btn-block">Continuar  <i style="padding-top: 4px;" class="fa fa-long-arrow-right pull-right"></i></button>
+
+		</div>
+	</div>
+
+			<script src="js/jquery.js"></script> 
+			<script src="bootstrap/js/bootstrap.min.js"></script> 
+			<script src="js/bootstrap-slider.min.js"></script>
+			<script src="js/range.js"></script>
+			<script src="js/Chart.min.js"></script>
+			<script src="js/grafico.js"></script>
+
+
+</body>
+	<!-- <script>
+		$(document).ready(function () {
+			$('select').material_select();
+		});
+		$('.datepicker').pickadate({
+        selectMonths: true, // Creates a dropdown to control month
+        selectYears: 40 // Creates a dropdown of 15 years to control year
+    });
+</script> -->
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- redimensiona ao tamanho da largura da tela -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<section class="capa_banner_cadastro">
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top ">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html"><img src="img/Logo_invest_digital.png"/></a>
+					</div>  
+					<div id="navbar" class="collapse navbar-collapse">
+						<ul>
+							<li>&emsp;</li>
+						</ul>
+						<ul class="nav navbar-nav">
+							<li><a href="#" style="color: white;"><strong>SOBRE &emsp;| </strong></a></li>
+							<li><a href="#" style="color: white;"><strong>PRODUTOS &emsp; | </strong></a></li>
+							<li><a href="#" style="color: white;"><strong>APRENDA &emsp; | </strong></a></li>
+							<li><a href="#" style="color: white;"><strong>SIMULE &emsp; | </strong></a></li>
+							<li><a href="#" style="color: white;"><strong>CONTATO</strong></a></li>    
+							<li><button id="btn-login" type="button" class="btn btn-warning">Login</button></li>  
+						</ul>
+
+						<div class="navbar-form navbar-right">
+							<img src="img/logo_BMG.png"/>
+						</div>
+
+					</div><!--/.nav-collapse -->
+				</div>
+			</nav>
+		</header>
+
+		<div class="container">
+			<section  id="respiro_h1">
+				<h1 class="letra-laranja" class="col-md-7">DADOS PESSOAIS</h1>
+			</section>
+		</div> <!-- container 1 -->
+	</section>
+
+
+	<div class="row">
+		<div class="container">
+			<img src="img/passo1.png" class="img-responsive" alt="Responsive image">
+
+			<form>
+				<div class="row">
+					<div class="form-group col-md-6">
+						<label for="dataEmissaoDocumento">Data de Nascimento*</label>
+						<input style="background-color: #F0F0F0;" type="date" placeholder="00 Janeiro, 0000" class="form-control">
+					</div>
+
+					<div class="form-group col-md-6">
+						<labeL for="select">UF de Nascimento*</label>
+						<select style="background-color: #F0F0F0;">
+						<option value="" disabled selected>Selecione </option>
+						<option>SP</option>
+						<option>RJ</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-6">
+						<label for="input">Nome Completo da Mãe* </label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+
+					<div class="form-group col-md-6">
+						<labeL for="input">Nome Completo do Pai* </label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>	
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-6">
+						<labeL for="select">Nacionalidade*</label>
+						<select style="background-color: #F0F0F0;">
+						<option value="" disabled selected>Selecione </option>
+						<option>CPF</option>
+						</select>
+					</div>
+
+					<div class="form-group col-md-6">
+						<labeL for="select">Tipo de Documento*</label>
+						<select style="background-color: #F0F0F0;">
+						<option value="" disabled selected>Selecione </option>
+						<option>CPF</option>
+						<option>RG</option>
+						</select>
+					</div>	
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-6">
+						<labeL for="select">Tipo de Documento*</label>
+						<select style="background-color: #F0F0F0;">
+						<option value="" disabled selected>Selecione </option>
+						<option>CPF</option>
+						<option>RG</option>
+						</select>
+					</div>
+
+					<div class="form-group col-md-6">
+						<label for="dataEmissaoDocumento">Data de Emissão do Documento*</label>
+						<input style="background-color: #F0F0F0;" type="date" placeholder="00 Janeiro, 0000" class="datepicker">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-6">
+						<labeL for="">Orgão Emissor*</label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+
+					<div class="form-group col-md-6">
+						<labeL for="">Número do Documento*</label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-6">
+						<labeL for="select">Naturalidade*</label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+
+					<div class="form-group col-md-6">
+						<labeL for="select">Sexo*</label>
+						<select style="background-color: #F0F0F0;">
+						<option value="" disabled selected>Selecione uma opção</option>
+						<option>Masculino</option>
+						<option>Feminino</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-6">
+						<labeL for="select">Estado Civil*</label>
+						<select style="background-color: #F0F0F0;">
+						<option value="" disabled selected>Selecione uma opção</option>
+						<option>Casado</option>
+						<option>Solteiro</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-12">
+						<labeL>Nome do Conjuge*</label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="form-group col-md-6">
+						<labeL for="select">Profissão*</label>
+						<select style="background-color: #F0F0F0;">
+						<option value="" disabled selected>Selecione uma opção</option>
+						<option>Desenvolvedor</option>
+						<option>DBA</option>
+						</select>
+					</div>
+
+					<div class="form-group col-md-6">
+						<labeL for="input">Renda Mensal*</label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+				</div>
+
+				<div class="row">
+					<div  class="form-group col-md-6">
+						<labeL for="input">Empresa que Trabalha* </label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+
+					<div class="form-group col-md-6">
+						<label for="dataEmissaoDocumento">Data de Admissão* 
+						</label>
+						<input style="background-color: #F0F0F0;" type="date" placeholder="00 Janeiro, 0000" class="datepicker form-control">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-4">
+						<labeL for="select">CEP Empresa* </label>
+						<input style="background-color: #F0F0F0;"  type="text" required="required"/>
+					</div>
+
+					<div class="form-group col-md-8">
+						<labeL for="select">Endereço Comercial*</label>
+						<input style="background-color: #F0F0F0;"  type="text" required="required"/>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-4">
+						<labeL for="select">Número* </label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+
+					<div class="form-group col-md-4">
+						<labeL for="select">Complemento* </label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+
+					<div class="form-group col-md-4">
+						<labeL for="select">Estado* </label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group col-md-6">
+						<labeL for="select">Cidade* </label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+
+					<div class="form-group col-md-6">
+						<labeL for="select">Bairro*</label>
+						<input style="background-color: #F0F0F0;" type="text" required="required"/>
+					</div>
+				</div>
+				<br>
+
+				<button type="button" class="btn btn-warning btn-lg col-md-4">Continuar </button>
+			</form>
+		</div>
+	</div>
+
+
+
+
+
+
+<script src="js/jquery.js"></script> 
+<script src="bootstrap/js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-slider.min.js"></script>
+<script src="js/range.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/grafico.js"></script>
+
+
+</body>
+	<!-- <script>
+		$(document).ready(function () {
+			$('select').material_select();
+		});
+		$('.datepicker').pickadate({
+        selectMonths: true, // Creates a dropdown to control month
+        selectYears: 40 // Creates a dropdown of 15 years to control year
+    });
+</script> -->
+
+
+
+
+
+
+</html>

@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script src="_so/js?//stackoverflow.com/questions/17541614/use-thumbnail-image-instead-of-radio-button" id="so"></script>
+
+	<!-- redimensiona ao tamanho da largura da tela -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<section class="capa_banner_investidor">
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top ">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html"><img src="img/Logo_invest_digital.png"/></a>
+					</div>  
+					<div id="navbar" class="collapse navbar-collapse">
+						<ul>
+							<li>&emsp;</li>
+						</ul>
+						<ul class="nav navbar-nav">
+							<li><a href="#" style="color: white;"><strong>SOBRE &emsp;| </strong></a></li>
+							<li><a href="#" style="color: white;"><strong>PRODUTOS &emsp; | </strong></a></li>
+							<li><a href="#" style="color: white;"><strong>APRENDA &emsp; | </strong></a></li>
+							<li><a href="#" style="color: white;"><strong>SIMULE &emsp; | </strong></a></li>
+							<li><a href="#" style="color: white;"><strong>CONTATO</strong></a></li>    
+							<li><button id="btn-login" type="button" class="btn btn-warning">Login</button></li>  
+						</ul>
+
+						<div class="navbar-form navbar-right">
+							<img src="img/logo_BMG.png"/>
+						</div>
+
+					</div><!--/.nav-collapse -->
+				</div>
+			</nav>
+		</header>
+
+		<div class="container">
+			<section  id="respiro_h1">
+				<h1 class="letra-laranja" class="col-md-7">PERFIL DE INVESTIDOR</h1>
+			</section>
+		</div> <!-- container 1 -->
+
+	</section>
+
+	<div class="container-fluid" style="background-color: #F2F2F2;">
+		<div class="container margin_respiro">
+			<div class="col-md-6">
+				<h3><strong>Olá Fernando,</strong></h3>
+				<p class="p_cinza">Queremos entender seu perfil de investidor.<br>
+					Assim poderemso indicar produtos que se encaixem ao seu perfil.<br>
+					Para isso, é preciso responder 4 perguntas </p>
+				</div>
+				<div class="col-md-4 col-md-offset-2">
+					<h3 class="h3_fase letra-laranja">4/4</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="container margin_respiro">
+			<h3 class="letra-laranja h3_suitability col-md-10">Qual percentual dos seus investimentos destinaria para produtos que busquem maiores retornos e podem apresentar perda de capital investido?</h3>
+			<img class="col-md-2" src="img/identidade.png"/>
+			<p class="p_cinza col-md-12">Selecione uma das opções abaixo</p>
+
+			<div class="row">
+				<label class="col-sm-8 col-xs-6 col-md-6">
+					<input type="radio" name="fb" value="big" class="i1" />
+					<span class="span_numero">1</span>
+					<p class="col-md-6 col-md-offset-2" id="p_up">Acima de 50%</p>
+				</label>
+
+				<label class=" col-sm-8 col-xs-6 col-md-6">
+					<input type="radio" name="fb" value="big" class="i2"/>
+					<span class="span_numero">2</span>
+					<p class="col-md-6 col-md-offset-2" id="p_up">De 25% a 50%</p>
+				</label>
+			</div>
+
+			<div class="row">
+				<label class="col-sm-8 col-xs-6 col-md-6">
+					<input type="radio" name="fb" value="big" class="i3" />
+					<span class="span_numero">3</span>
+					<p class="col-md-6 col-md-offset-2" id="p_up">Até 25%</p>
+				</label>
+
+				<label class="col-sm-8 col-xs-6 col-md-6">
+					<input type="radio" name="fb" value="big" class="i4" />
+					<span class="span_numero">3</span>
+					<p class="col-md-6 col-md-offset-2" id="p_up">Nenhuma</p>
+				</label>
+			</div><br><br>
+
+
+			<buttont ype="button" class="btn btn-warning btn-lg col-md-4 col-md-offset-4">CONCLUIR E VER MEU PERFIL</button>
+
+			</div>
+
+
+			<script src="js/jquery.js"></script> 
+			<script src="bootstrap/js/bootstrap.min.js"></script> 
+			<script src="js/bootstrap-slider.min.js"></script>
+			<script src="js/range.js"></script>
+			<script src="js/Chart.min.js"></script>
+			<script src="js/grafico.js"></script>
+
+		</body>
+	<!-- <script>
+		$(document).ready(function () {
+			$('select').material_select();
+		});
+		$('.datepicker').pickadate({
+        selectMonths: true, // Creates a dropdown to control month
+        selectYears: 40 // Creates a dropdown of 15 years to control year
+    });
+</script> -->
+</html>
