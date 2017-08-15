@@ -2,10 +2,12 @@
 html, body {
     height: 100%;
     color: #454545;
+    font-family: Effra Light;
+    src: url("fonts/EffraLight-Light.ttf") format("truetype");
 }
 
 ul {
- list-style-type:none
+   list-style-type:none
 }
 
 h1{
@@ -27,10 +29,10 @@ input:invalid {
 }
 
 .navbar-default {
-   background-color:rgba(0, 0, 0, 0.5); /* fundo transparente e ao mesmo tempo preto */
-   z-index: 1;
-   border: none;
-   height: 120px;
+ background-color:rgba(0, 0, 0, 0.5); /* fundo transparente e ao mesmo tempo preto */
+ z-index: 1;
+ border: none;
+ height: 120px;
 }
 
 
@@ -154,6 +156,38 @@ input:invalid {
     border-top: 500px solid #f47920;
 }
 
+.capa_banner_sobre {
+    background-image: url(img/header.png);
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100% ;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    min-height: 80%;
+    height: auto;
+}
+
+.banner_sobre {
+    background-image: url(img/Img_icons.png);
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100% ;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    min-height: 80%;
+    height: auto;
+}
+
 
 .capa_banner1 {
     background-image: url(img/_MG_43310.jpg);
@@ -252,17 +286,19 @@ input:invalid {
     background-position: center;
     position: relative;
     background-repeat: no-repeat;
-    height: 100% ;
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    min-height: 50%;
-    height: auto;
+   
+    height: 32%;
 }
 
+#respiro_h1_ex{
+    margin-bottom: 30px;
+}
 
 .h2_perfil{
     font-size: 3em;
@@ -391,10 +427,12 @@ input:invalid {
 .p_cinza{
     font-size: 18px;
     color: grey;
+    font-family: Effra;
 }
 
 .h3_suitability{
     font-size: 2.5em;
+    margin-top: 60px;
 }
 
 .h3_medio{
@@ -407,6 +445,15 @@ input:invalid {
 
 .h3_perfil{
     font-size: 3.5em;
+}
+
+#txtOla{
+    margin-bottom: 10px;
+}
+
+#respiro_h1_ex{
+    margin-top: 13%;
+    font-size: 50px;
 }
 
 .margin_respiro{
@@ -440,6 +487,10 @@ input:invalid {
 #ex7SliderVal {
     font-size: 30px;
     margin-left: 10px;
+}
+
+.p_form{
+    font-size: 23px;
 }
 
 
@@ -596,7 +647,7 @@ label > .i1:checked + span, label > .i2:checked + span, label > .i3:checked + sp
 
 #p_up{
     position: absolute;
-    top: 30%; 
+    top: 40%; 
 }
 
 
@@ -627,13 +678,13 @@ label > .i1:checked + span, label > .i2:checked + span, label > .i3:checked + sp
 
 
     #esq2 {
-     position: relative;
-     bottom: 195px;
-     font-size: 12px;
- }
+       position: relative;
+       bottom: 195px;
+       font-size: 12px;
+   }
 
 
- label > input { /* HIDE RADIO */
+   label > input { /* HIDE RADIO */
     visibility: hidden; /* Makes input not-clickable */
     position: absolute; /* Remove input from document flow */
 }
@@ -795,7 +846,7 @@ label > p {
 }
 
 .p_form{
-    font-size: 19px;
+    font-size: 20px;
 }
 
 #esq {
@@ -806,10 +857,10 @@ label > p {
 }
 
 #esq2 {
- position: relative;
- bottom: 83px;
- left: 80px;
- font-size: 12px;
+   position: relative;
+   bottom: 83px;
+   left: 80px;
+   font-size: 12px;
 }
 
 
@@ -840,10 +891,10 @@ label > p {
     }
 
     .span_numero:hover{
-    color: #f47920;
-    transition: 0.3s;
-    opacity: 1;
-}
+        color: #f47920;
+        transition: 0.3s;
+        opacity: 1;
+    }
 
 
 }
@@ -889,13 +940,13 @@ label > p {
     }
 
     #esq2 {
-     position: relative;
-     bottom: 83px;
-     left: 112px;
-     font-size: 12px;
- }
+       position: relative;
+       bottom: 83px;
+       left: 112px;
+       font-size: 12px;
+   }
 
- .footer{
+   .footer{
     margin-top: -145px;
 }
 
