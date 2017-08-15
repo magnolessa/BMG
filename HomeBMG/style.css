@@ -648,9 +648,9 @@ label > .i1:checked + span, label > .i2:checked + span, label > .i3:checked + sp
 #p_up{
     position: absolute;
     top: 30%;
-    font-size: 16px;
+    font-size: 20px;
     color: #a5a0a0;
-    font-family: Effra;
+    font-family: Effra Light;
 }
 
 
